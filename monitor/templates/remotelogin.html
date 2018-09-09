@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+#header {
+    background-color:#484891;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:200px;
+    float:left;
+    padding:5px;	      
+}
+#section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+#footer {
+    background-color:#484891;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:6px;	 	 
+}
+</style>
+</head>
+
+<body>
+
+<div id="header">
+<h1>Web shell</h1>
+</div>
+
+
+
+
+
+
+
+<form method='post'>{% csrf_token %}
+<p>{{ from  }}</p>
+<input type="submit" value="执行">
+</form>
+
+<p>
+<em>{{ hostname }}</em>
+<em>{{ port }}</em>
+<em>{{ passwd }}</em>
+</p>
+
+
+
+<div id="footer">
+Copyright fuweichao webssh page
+</div>
+</body>
+</html>
+

@@ -1,0 +1,42 @@
+{% load staticfiles %}
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!--[if lt IE 9]>
+	<script src="dist/html5shiv.js"></script>
+	<![endif]-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>服务器资产信息列表</title>
+	<link rel="stylesheet" href="{% static "css/serverstyle.css" %}">
+	<link href='http://fonts.useso.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<section id="pricePlans">
+          
+		<ul id="plans">
+                        {% for infor in infor_list %}
+			<li class="plan">
+				<ul class="planContainer">
+					<li class="title"><h2>{{ infor.name }}</h2></li>
+					<li class="price"><p>{{ infor.privateip}}</p></li>
+					<li>
+						<ul class="options">
+							<li>公网ip <span>{{ infor.publicip}}</span></li>
+							<li>zoneid <span>{{ infor.zoneid}}</span></li>
+							<li>cpu个数 <span>{{ infor.cpu}}</span></li>
+							<li>内存 <span>{{ infor.memory}}</span></li>
+							<li>数据盘 <span>{{ infor.datadisk}}</span></li>
+						</ul>
+					</li>
+					<li class="button"><a href="#">{{ infor.use}}</a></li>
+				</ul>
+			</li> 
+                        {% endfor %}
+
+		</ul> 
+
+		<!--div id="credits">Copyright    付炜超的运维管理平台</div-->
+	</section>
+</body>
+</html>

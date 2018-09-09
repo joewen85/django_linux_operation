@@ -1,0 +1,32 @@
+{% load staticfiles %}
+<html>
+<body>
+    <div>
+        <p>用户名: <input type="text" id="username" /></p>
+    </div>
+    <div>
+        <p>密码: <input type="password" id="pwd" /></p>
+    </div>
+    <input type="button" value="提交" onclick="fwc();"/>
+    <script src="{% static "js/jquery.min.js" %}"></script>
+    <script>
+        function fwc(){
+            $.ajax({
+                url:'/ajax_demo/',
+                type:'POST',
+                data:{'user','pwd'},
+                dataType:'json',
+                success:function(data){
+                    if(data.status){
+                        location.href="http://www.baidu.com";
+                    }
+                    else{
+                       // alert(data.message)
+			location.href="http://www.w3school.com.cn";
+                    }
+                }
+            })
+        }
+    </script>
+</body>
+</html>

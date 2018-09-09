@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4a42b1ee-494c-4288-96f9-b33913f973c8" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Login/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/templates/regist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansibles/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansibles/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansibles/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansibles/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansibles/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansibles/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmdb/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmdb/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmdb/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmdb/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmdb/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmdb/templates/information.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmdb/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmdb/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fromtest/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fromtest/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fromtest/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fromtest/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fromtest/search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fromtest/templates/post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fromtest/templates/search_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fromtest/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fromtest/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/templates/changepwd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/access.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/ansible.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/cpu.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/cpu2.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/disk.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/disk2.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/disk3.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/filersync.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/image.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/ip.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/ip.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/iparea.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/mail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/mail.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/mail.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/memory.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/memory2.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/memory3.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/migrations/0002_monitor_value.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/migrations/0003_auto_20170328_1826.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/migrations/0004_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/migrations/0005_experience.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/migrations/0006_question.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/program.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/rrdtool/cpu.rrd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/rrdtool/cpu1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/rrdtool/cpu3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/rrdtool/cpu5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/rrdtool/disk.rrd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/rrdtool/disk1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/rrdtool/disk3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/rrdtool/disk5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/rrdtool/memory.rrd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/rrdtool/memory1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/rrdtool/memory3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/rrdtool/memory5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/rrdtool/rrdtool.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/css/clndr.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/css/jqvmap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/css/lines.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/images/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/images/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/images/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/images/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/images/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/images/arrow-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/images/arrow-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/images/cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/images/pic1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/images/pic2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/images/pic3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/images/pic4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/js/Chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/js/clndr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/js/d3.v3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/js/jquery.vmap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/js/jquery.vmap.sampledata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/js/jquery.vmap.world.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/js/metisMenu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/js/moment-2.2.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/js/rickshaw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/js/site.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/cpts_274_nz/js/underscore-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/css/ansiblestyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/css/blogstyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/css/clndr.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/css/icomoon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/css/jqvmap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/css/lines.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/css/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/css/monitorstyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/css/serverstyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/css/websshbootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/css/websshstyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/css/zerogrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/images/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/images/1.pngbak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/images/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/images/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/images/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/images/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/images/ansibleicons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/images/arrow-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/images/arrow-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/images/cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/images/empty-img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/images/extra-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/images/icon-home.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/images/icon-mail.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/images/icon-map.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/images/img_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/images/img_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/images/monitorlogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/images/monitorlogo.pngbak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/images/msg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/images/person_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/images/pic1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/images/pic2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/images/pic3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/images/pic4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/images/polygon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/jpg/monitor/cpu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/jpg/monitor/cpu1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/jpg/monitor/cpu3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/jpg/monitor/cpu5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/jpg/monitor/disk1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/jpg/monitor/disk3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/jpg/monitor/disk5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/jpg/monitor/memory1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/jpg/monitor/memory3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/jpg/monitor/memory5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/js/Chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/js/clndr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/js/d3.v3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/js/echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/js/echarts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/js/html5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/js/jquery.easing.1.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/js/jquery.magnific-popup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/js/jquery.stellar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/js/jquery.vmap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/js/jquery.vmap.sampledata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/js/jquery.vmap.world.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/js/jquery.waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/js/magnific-popup-options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/js/metisMenu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/js/modernizr-1.5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/js/modernizr-2.6.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/js/moment-2.2.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/js/rickshaw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/js/site.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/js/underscore-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/js/websshjquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/js/websshsabootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/static/logstyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/ajax_demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/cpu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/disk.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/experience.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/filersync.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/filersync.htmlbak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/fwc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/graphs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/index.htmlbak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/jqueryajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/jqueryajax.htmlbak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/linuxlog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/memory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/monitor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/monitorset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/monitort.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/program.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/questions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/questions.html2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/remotelogin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/server.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/server.htmlbak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/servers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/servicelog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/showcpu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/test01/basic_tables.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/test01/compose.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/test01/forms.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/test01/graphs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/test01/grids.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/test01/inbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/test01/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/test01/media.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/test01/typography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/test01/validation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/test01/widgets.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/templates/websshn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/tianqi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/tianqi2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/weather.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitor/weather2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/dist/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/dist/vue.common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/dist/vue.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/dist/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/dist/vue.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/dist/vue.runtime.common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/dist/vue.runtime.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/dist/vue.runtime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/dist/vue.runtime.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/codegen/events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/codegen/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/directives/bind.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/directives/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/directives/model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/error-detector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/optimizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/parser/entity-decoder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/parser/filter-parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/parser/html-parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/parser/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/parser/text-parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/components/keep-alive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/global-api/assets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/global-api/extend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/global-api/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/global-api/mixin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/global-api/use.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/inject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/lifecycle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/proxy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/render-helpers/bind-object-props.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/render-helpers/check-keycodes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/render-helpers/render-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/render-helpers/render-slot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/render-helpers/render-static.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/render-helpers/resolve-filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/render-helpers/resolve-slots.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/render.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/instance/state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/observer/array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/observer/dep.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/observer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/observer/scheduler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/observer/watcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/util/debug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/util/env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/util/error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/util/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/util/lang.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/util/options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/util/perf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/util/props.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/create-component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/create-element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/create-functional-component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/helpers/extract-props.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/helpers/get-first-component-child.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/helpers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/helpers/merge-hook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/helpers/normalize-children.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/helpers/resolve-async-component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/helpers/update-listeners.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/modules/directives.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/modules/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/modules/ref.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/patch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/core/vdom/vnode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/compiler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/compiler/directives/html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/compiler/directives/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/compiler/directives/model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/compiler/directives/text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/compiler/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/compiler/modules/class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/compiler/modules/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/compiler/modules/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/compiler/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime-with-compiler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/class-util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/components/transition-group.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/components/transition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/directives/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/directives/model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/directives/show.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/modules/attrs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/modules/class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/modules/dom-props.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/modules/events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/modules/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/modules/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/modules/transition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/node-ops.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/patch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/runtime/transition-util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/server-renderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/server/directives/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/server/directives/show.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/server/modules/attrs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/server/modules/class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/server/modules/dom-props.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/server/modules/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/server/modules/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/server/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/util/attrs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/util/class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/util/compat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/util/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/util/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/web/util/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/directives/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/directives/model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/modules/append.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/modules/class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/modules/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/modules/props.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/compiler/modules/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/framework.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime-factory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/components/transition-group.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/components/transition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/directives/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/modules/attrs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/modules/class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/modules/events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/modules/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/modules/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/modules/transition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/node-ops.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/patch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/runtime/text-node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/platforms/weex/util/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/bundle-renderer/create-bundle-renderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/bundle-renderer/create-bundle-runner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/bundle-renderer/source-map-support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/create-renderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/render-context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/render-stream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/render.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/template-renderer/create-async-file-mapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/template-renderer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/template-renderer/parse-template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/template-renderer/template-stream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/webpack-plugin/client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/webpack-plugin/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/webpack-plugin/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/server/write.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/sfc/parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/shared/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/src/shared/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/types/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/types/options.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/types/plugin.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/types/vnode.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue/types/vue.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webssh/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webssh/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webssh/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webssh/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webssh/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webssh/templates/webssh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webssh/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webssh/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zqxt_form2.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zqxt_form2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zqxt_form2/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zqxt_form2/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zqxt_form2/wsgi.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fromtest/models.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Login/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3">
+              <folding>
+                <element signature="e#14#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/node_modules/vue/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1920" />
+    <option name="y" value="108" />
+    <option name="width" value="1082" />
+    <option name="height" value="1058" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="zqxt_form2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zqxt_form2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zqxt_form2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zqxt_form2" type="462c0819:PsiDirectoryNode" />
+              <item name="fromtest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zqxt_form2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zqxt_form2" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="django 实现linux运维管理平台" type="Python.DjangoServer" factoryName="Django server">
+      <module name="django 实现linux运维管理平台" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a42b1ee-494c-4288-96f9-b33913f973c8" name="Default" comment="" />
+      <created>1526567074092</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1526567074092</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1920" y="108" width="1082" height="1058" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3298647" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25480768" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/zqxt_form2.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zqxt_form2.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fromtest/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <folding>
+            <element signature="e#14#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
